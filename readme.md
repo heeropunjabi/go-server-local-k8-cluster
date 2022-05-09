@@ -1,3 +1,8 @@
+# How Things are working locally
+
+![image](https://user-images.githubusercontent.com/3514019/167405868-ec901348-5bc4-4301-bcd9-2cf9f398d4fb.png)
+
+
 ## run go server locally
     go run main.go
 ## Build docker image from docker file
