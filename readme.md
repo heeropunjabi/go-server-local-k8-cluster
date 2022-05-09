@@ -22,7 +22,8 @@
 ## Tag docker image with my-cluster registry
     docker tag go-web-server:latest mycluster-registry:5000/go-web-server:local
 
-docker push mycluster-registry:5000/go-web-server:local
+## push docker image to local my-cluster registry
+    docker push mycluster-registry:5000/go-web-server:local
 
 ## Create deployment from the image created from previous step, pull from the local registry 
     kubectl create deployment go-web-server --image=mycluster-registry:5000/go-web-server:local
