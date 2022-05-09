@@ -1,0 +1,4 @@
+mirrors:
+"k3d-test-app-registry:5050":
+    endpoint:
+      - http://k3d-test-app-registry:5050
