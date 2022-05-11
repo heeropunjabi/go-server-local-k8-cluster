@@ -37,4 +37,4 @@
 http://localhost:9900/
 
 ## Delete local cluster using k3d
-k3d cluster delete k3s-default
+    k3d cluster delete k3s-default
